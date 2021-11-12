@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+  background-color: #ccc;
+  font-family: "Times New Roman", Times, serif;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  justify-content: center;
+}
+.boxPopper{
+  display:flexbox;
+  flex-wrap: wrap;  
+  height:max-content;
+}
+.conteudo{
+  background-color: #d80032;
+  height: 180px;
+  width: 100%;
+}
+.App-header {
+  background-color: #f80032;  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  flex-wrap: wrap;
+  padding: 16px;
+}
+.teste1 {
+  color: white;
+}
+.teste2 {
+  color: rgb(150, 46, 46);
+}
+.Seek-bar{
+  background-color: #ffffff;
+  font-size: calc(2px + 2vmin);
+  display: flex;  
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+.Input-seek-bar{
+  font-size: calc(10px + 2vmin);
+  width:250px;
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+.ProductSugestion:hover{  
+  outline: solid rgb(200, 200, 200);  
+}
+.SuggestionSelect:hover{  
+  background: rgb(202, 202, 202);  
+}
+.SuggestionSelect{
+  background: rgb(255, 255, 255);
+  font-size: calc(2vmin);  
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.Popper{ 
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.Auto-complete{
+  font-size: calc(10px + 2vmin);
+  display: flex;
+  flex-direction: row;  
+  list-style-type: none;
+  list-style: none;
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor:pointer;  
+  flex-wrap: wrap;
+  background-color: white;
+}
+.ProductSugestion{
+  font-size: calc(4px + 1vmin);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; 
+  width:100px; 
+  border:1px; 
+  align-items: center;
+  margin: 6px;
+  flex-wrap: wrap;
+}
+.ProductList{
+  font-size: calc(12px + 1vmin);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 4px;
+}
+.Suggestion{  
+  font-size: calc(8px + 1vmin);
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  flex-wrap: wrap;
+  margin-left: 4px;
+}
+.TextoProduto{
+  overflow: hidden;
+  width:105px; 
+  border:1px; 
+  white-space:nowrap;
+}
+
